@@ -35,8 +35,8 @@ const Navbar = () => {
     <div className="flex m-5 border-b-2 pb-2 justify-between items-center md:mx-20 md:my-10 md:border-b-4 md:pb-10 relative">
       <div className="flex gap-2 md:gap-5 items-center">
         <img className="w-10 md:w-20" src={logo} alt="Logo" />
-        <Link to="/" className="font-bold md:text-2xl">
-          SUVIN <br /> editography
+        <Link to="/" className="font-bold md:text-4xl">
+          SUVIN <br /> Editography
         </Link>
       </div>
       <div className="hidden md:flex gap-20 font-medium text-[20px] bg-gray-300 p-8 rounded-4xl px-20 ">
@@ -61,7 +61,7 @@ const Navbar = () => {
         {isOpen && (
           <div
             ref={dropdownRef} // Attach ref to dropdown menu
-            className="flex flex-col text-white font-medium items-center rounded-2xl absolute right-0 top-full mt-2 w-40 p-4 bg-[#4A00F5] z-10"
+            className="flex flex-col text-white font-medium items-center rounded-2xl absolute right-0 top-full mt-2 w-40 p-4 bg-[#4a00f5] z-10"
           >
             <Link to="/" onClick={() => setIsOpen(false)}>
               Home
