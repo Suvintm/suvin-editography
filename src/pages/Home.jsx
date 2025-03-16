@@ -1,10 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Header from "../components/Header";
+import Main from "../components/Main";
 
 const Home = () => {
   return (
     <div>
-      <h1 className="text-center mt-10">Welcome to Suvin Editography!</h1>;
+      <Header />
+      <Main />
     </div>
   );
 };
